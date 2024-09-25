@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f57c00;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.btn {
+    background-color: #f57c00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e67300;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero-content h2 span {
+    color: #f57c00;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.stay-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.stay-home-content h3 {
+    font-size: 32px;
+    color: #333;
+}
+
+.stay-home-content p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.food-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.food-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.food-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.food-item h4 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.download-app {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.app-screens img {
+    width: 100px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #f57c00;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe button {
+    padding: 10px;
+    background-color: white;
+    color: #f57c00;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
